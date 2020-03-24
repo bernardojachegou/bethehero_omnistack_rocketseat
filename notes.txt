@@ -1,0 +1,70 @@
+
+#Notes about OmniStack Week#
+
+Day 01 <----------------------------------------------
+1. Installing --> Node.js
+1.1 Chocolatey 
+1.1 PowerShell (Restricted or Not Restricted)
+
+2. Installing --> VS Code
+2.1 Dracula theme
+2.2 Material Icon theme
+
+3. Hello world with Node
+3.1 npm init -y (JSON config)
+3.2 npm install express (dependencies config)
+3.3 new index.js (config app port: localhost:3333)
+
+4. Hello world with React
+3.1 npx create-react-app frontend (creating)
+3.1 npm start (starting app)
+
+5. Concept --> React Native
+5.1 JS core (Source code)
+
+6. Explaning --> Expo
+6.1 Lib mobile actions
+6.2 just JavaScript
+
+Day 02 <----------------------------------------------
+1. Opening the files 
+1.1 Code . 
+
+2. GET/POST
+2.1 GET(Buscar, listar)
+2.2 POST(Criar)
+2.3 PUT(Alterar)
+2.4 DELETE(Deletar)
+
+3. Insomnia
+3.1 Testing routes
+
+4. Parameters
+4.1 Queries Parms (Paginação, Filtros)
+4.2 Route Parms (Identificar recursos)
+4.3 Request Body (Get informations using JSON)
+
+5. Nodemon
+5.1 npm install nodemon -D (Developer)
+5.2 auto-reset / changing script (start - index.js)
+
+6. Database
+6.1 SQLite
+6.1 npm install knex / npm install sqlite3
+6.2 knexfile (development: andress)
+
+7. Análise de recursos 
+7.1 Entidades 
+7.2 Ong, caso(incident), 
+7.3 Funcionalidades
+7.4 Login, Logout, Cadastro (new, delete), Listar casos específicos
+7.5 Mobile (Listar todos os casos, contatos via email, whatsapp)
+
+8. Creating migrations (tables)
+8.1 npx knex migrate:make create_ongs
+8.2 Config migration file - npx migrate:latest
+8.3 testing using Insomnia
+8.4 config connection and routes (async - await)
+8.5 Testing using Insomnia
+
+9.
