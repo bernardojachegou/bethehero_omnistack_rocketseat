@@ -72,13 +72,13 @@ Day 03 <--------------------ELABORANDO-O-FRONTEND-----------------------
 
 3. Configurações de CSS e Emmet
 	3.1 style.css (por página)
-	3.2 global.css (imports e resets)
+	3.2 global.css (imports, reset e default)
 	3.3 Habilitando atalhos com emmet (settings.json)
 
 4. Criando Página de Login
 	4.1 Importando imagens
 	4.2 Elaboração de formulário
-	4.3 Importando Icones (Feather Icons)
+	4.3 Importando Icons (Feather Icons + React)
 	4.4 Estilizando a página (Estruturas form/section/h1/a/svg)
 
 5. Configurações de rotas
@@ -112,7 +112,8 @@ Day 03 <--------------------ELABORANDO-O-FRONTEND-----------------------
 	9.5 Preenchendo formulário dinamicamente (.map)
 	9.6 Formatando com INTL
 	9.7 Criando a função HandleDelete
-	9.8 Criando a função Logout
+	9.8 Criando a função HandleLogout
+	9.9 Criando a função HandleNewIncidents
 
 
 
