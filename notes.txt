@@ -1,70 +1,150 @@
+######################################
+## Anotações - Projeto: Be The Hero ##
+######################################
+Day 01 <-----------------PREPARANDO-O-AMBIENTE---------------------------
+1. Instalação
+	1.1 Chocolatey (cmd)
+	1.2 Node.js (Ferramenta backend)
+1.3 VS Code
+	1.3.1 Dracula Theme (Ferramenta VSCode)
+	1.3.2 Material Icon Theme (Ferramenta VSCode)
 
-#Notes about OmniStack Week#
+2. Usando o Node.js
+	2.1 npm init -y (Configuração Node.js)
+	2.2 npm install express (Instalando o Express)
+	2.3 new index.js (configuração da port:3333)
 
-Day 01 <----------------------------------------------
-1. Installing --> Node.js
-1.1 Chocolatey 
-1.1 PowerShell (Restricted or Not Restricted)
+4. Conhecendo o React
+	4.1 npx create-react-app frontend (Criando o projeto front end)
+	4.2 npm start (Testando o aplicativo)
 
-2. Installing --> VS Code
-2.1 Dracula theme
-2.2 Material Icon theme
+5. Conceito sobre React Native
+	5.1 JavaScript core (Código único)
 
-3. Hello world with Node
-3.1 npm init -y (JSON config)
-3.2 npm install express (dependencies config)
-3.3 new index.js (config app port: localhost:3333)
+6. Explicando o Expo
+	6.1 Ações da lib 
+	6.2 Usando somente JS
 
-4. Hello world with React
-3.1 npx create-react-app frontend (creating)
-3.1 npm start (starting app)
+Day 02 <-------------------ELABORANDO-O-BACKEND--------------------------
+1. Requisições com GET/POST
+	1.1 Métodos de Requisições (GET, POST, PUT, DELETE)
+	1.2 Instalando o Insomnia 
+	1.3 Testando as rotas com o Insomnia
 
-5. Concept --> React Native
-5.1 JS core (Source code)
+2. Parâmetros
+	2.1 Queries Parms (Usados para paginação e filtros)
+	2.2 Route Parms (Identificar recursos)
+	2.3 Request Body (Pegando informações com JSON)
 
-6. Explaning --> Expo
-6.1 Lib mobile actions
-6.2 just JavaScript
+3. Nodemon
+	3.1 npm install nodemon -D (Instalação)
+	3.2 Reset automático (npm start - index.js)
 
-Day 02 <----------------------------------------------
-1. Opening the files 
-1.1 Code . 
+4. Banco de dados
+	4.1 Instalando o SQLite
+	4.2 npm install knex / npm install sqlite3 (comandos)
+	4.3 knexfile (setando o endereço de dev)
 
-2. GET/POST
-2.1 GET(Buscar, listar)
-2.2 POST(Criar)
-2.3 PUT(Alterar)
-2.4 DELETE(Deletar)
+5. Análise de recursos 
+	5.1 Entidades 
+	5.2 Funcionalidades
 
-3. Insomnia
-3.1 Testing routes
+6. Criando as tabelas
+	6.1 npx knex migrate:make create_ongs (comando)
+	6.2 npx migrate:latest (comando)
 
-4. Parameters
-4.1 Queries Parms (Paginação, Filtros)
-4.2 Route Parms (Identificar recursos)
-4.3 Request Body (Get informations using JSON)
+7.Controladores (MVC)
+	7.1 OngController
+	7.2 IncidentController
+	7.3 ProfileController
+	7.4 SessionController
+Day 03 <--------------------ELABORANDO-O-FRONTEND-----------------------
+1. Limpando o projeto
+	1.1 Apagando arquivos não utilizados
+	1.2 Estrutura de funcionamento do React (npm start)
+	1.2.1 (index.js --> App.js --> Header.js)
 
-5. Nodemon
-5.1 npm install nodemon -D (Developer)
-5.2 auto-reset / changing script (start - index.js)
+2. Conceitos do React
+	2.1 Componente = função que retorna um html (JSX) 
+	2.2 Propriedades = modificação de conteúdo atravès de injeção(js)
+	2.2.1 Desestruturação de propriedade (Código mais claro)
+	2.4 Estado modificado = componente precisa rendenizar novamente {useState}
 
-6. Database
-6.1 SQLite
-6.1 npm install knex / npm install sqlite3
-6.2 knexfile (development: andress)
+3. Configurações de CSS e Emmet
+	3.1 style.css (por página)
+	3.2 global.css (imports e resets)
+	3.3 Habilitando atalhos com emmet (settings.json)
 
-7. Análise de recursos 
-7.1 Entidades 
-7.2 Ong, caso(incident), 
-7.3 Funcionalidades
-7.4 Login, Logout, Cadastro (new, delete), Listar casos específicos
-7.5 Mobile (Listar todos os casos, contatos via email, whatsapp)
+4. Criando Página de Login
+	4.1 Importando imagens
+	4.2 Elaboração de formulário
+	4.3 Importando Icones (Feather Icons)
+	4.4 Estilizando a página (Estruturas form/section/h1/a/svg)
 
-8. Creating migrations (tables)
-8.1 npx knex migrate:make create_ongs
-8.2 Config migration file - npx migrate:latest
-8.3 testing using Insomnia
-8.4 config connection and routes (async - await)
-8.5 Testing using Insomnia
+5. Configurações de rotas
+	5.1 npm react-router-dom (instalação)
+	5.2 Importação (BrowserRouter, Router, Switch)
+	5.3 Setando a rota para página inicial (Imports)
+	5.4 Propriedade 'exact' para página inicial
+	5.5 usando 'Link' do react para melhorar mudança de página
 
-9.
+6. Criando Página de Cadastro de ONGs
+	6.1 aproveitamento de CSS
+	6.2 Criando HTML
+	6.3 Estilizando a página
+	6.4 Aprendendo sobre style e (input + input)
+
+7. Criando Página de Perfil
+	7.1 Criando HTML
+	7.2 Estilizando a página (posicionamento de elementos)
+	7.3 utilizando :not(:first-child)
+
+8. Criando Página de Cadastro de Casos
+	8.1 Copiando HTML e CSS da pagina de Cadastro de ONGs
+	8.2 Consertando reajustando CSS
+	8.3 Verificando LINKs
+
+9. Conectando o Front-end e o Back-end
+	9.1 npm install axios (npm start)
+	9.2 configurando páginas (recepção de valores de cadastro)
+	9.3 testando (utlização de async-await)
+	9.4 Usando useState e useHistory
+	9.5 Preenchendo formulário dinamicamente (.map)
+	9.6 Formatando com INTL
+	9.7 Criando a função HandleDelete
+	9.8 Criando a função Logout
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
