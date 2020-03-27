@@ -166,3 +166,36 @@ Day 04 <-----------------PROJETO-NO-REACT-NATIVE-------------------------
 	7.4 configurando mensagem de e-mail e whatsapp
 	7.5 criando scroll infinito (onEndReached/onEndReachedThreshold)
 #########################################################################
+Day 05 <----------------FUNCIONALIDADES-AVANÇADAS------------------------
+#########################################################################
+1. Validações 
+	1.1 Biblioteca Celebrate/Joi no Express
+	1.2 Validação primeiro/ Inserção de dados depois
+	1.3 Validação de [QUERY, BODY E HEADERS]
+
+2. Testes 
+	2.1 Motivos para fazer os testes
+	2.2 TDD (Test Driven Delepoment)
+
+3.Fazendo testes em nossa aplicação (Jest)
+	3.1 Tipos de teste (Únitário, Integração) 
+	3.1.1 Teste únitário (Testa funcionalidades isoladas da app)
+	3.1.2 Instalação o Jest (npm install --jest)
+	3.2 Teste de Integração (Fluxo, rota)
+	3.2.1 Instalação do cross-env (npm install cross-env
+	3.2.2 Instalação do supertest (npm install supertest)
+
+3. Deploy 
+	3.1 Heroku.com (Teste de aplicações - Free Version)
+	3.2 DigitalOcean (Prático e valor viável)
+	3.3 Netlify (Específico para front-end)
+
+4. Estudos
+	4.1 Padrão de código: ESLint, Prettier
+	4.2 Autenticação JWT
+	4.3 Styled Components
+
+5. Apresentação do projeto
+	5.1 Github
+	5.2 Linkedin
+#########################################################################
