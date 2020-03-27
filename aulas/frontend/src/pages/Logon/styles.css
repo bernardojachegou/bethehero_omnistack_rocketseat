@@ -22,6 +22,7 @@
 .logon-container section.form form h1 {
     font-size: 32px;
     margin-bottom: 32px;
+    text-align: center;
 }
 
 .logon-container section.form form a {
