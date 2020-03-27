@@ -35,8 +35,9 @@ O projeto tem como objetivo intermediar as necessidades de ONG's que ajudam anim
 2 - `npm start` para rodar o servidor.
 
 #### Mobile App
+1 - `npm install` para baixar todas as dependências necessárias.
 
-## Rotas
+2 - `npm start` para rodar o servidor.
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/30102bbdd679310a5edb)
+OBS: baixe o app (expo) para simular o app em seu smartphone.
 
